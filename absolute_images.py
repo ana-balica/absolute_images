@@ -2,8 +2,8 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 from urlparse import urljoin
 
-from . import Extension
-from ..treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+from markdown.treeprocessors import Treeprocessor
 
 
 class AbsoluteImagesExtension(Extension):
